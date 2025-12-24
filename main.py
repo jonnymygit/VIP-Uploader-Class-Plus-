@@ -33,7 +33,7 @@ getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
 
 credit ="😎𝖘:)™~" 
-OWNER = int(os.environ.get("OWNER", 7192966134)
+OWNER = int(os.environ.get("OWNER", 7192966134))
 try: 
     ADMINS=[] 
     for x in (os.environ.get("ADMINS", "7192966134").split()):  
@@ -302,4 +302,5 @@ async def account_login(bot: Client, m: Message):
         await m.reply_text(e)
         
 bot.run()
+
 
